@@ -8,19 +8,16 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    const list = randomWords({exactly: 10, maxLength: 10, formatter: (word) => word.toUpperCase()});
-    console.log(list);
-
     this.state = {
-      wordList: list
+      wordList: props.list
     };
   }
 
   render() {
     return (
       <div className="word-list">
-        {this.state.wordList.map((word) => (
-            <div className="word">
+        {this.state.wordList.map((word, key) => (
+            <div key={key} className="word">
               {word}
             </div>
           ))
