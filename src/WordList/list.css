@@ -1,0 +1,12 @@
+.word-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.word-list .word {
+  width: 20%;
+  margin: 10px 15px;
+}

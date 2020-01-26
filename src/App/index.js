@@ -13,8 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <WordGrid/>
-        <WordList/>
+        <div className = "body">
+          <WordGrid/>
+          <WordList/>
+        </div>
       </div>
     );
   }

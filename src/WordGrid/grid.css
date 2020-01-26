@@ -1,0 +1,8 @@
+.word-grid {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.word-grid .grid-row .grid-letter {
+  padding: 3px 5px
+}
