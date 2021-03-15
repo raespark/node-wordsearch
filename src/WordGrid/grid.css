@@ -4,5 +4,22 @@
 }
 
 .word-grid .grid-row .grid-letter {
-  padding: 3px 5px
+  padding: 3px 5px;
+  font-size: 17px;
+  color:#262626
+}
+
+.word-grid .grid-row .grid-letter:hover {
+  font-size: 20px;
+  font-weight: bold;
+
+  /*Prevents other letters from being displaced*/
+  position: absolute;
+  /* width to ensure text is still centered*/
+  width: 15px;
+
+  cursor: pointer;
+  color: black;
+  transition: font-size .2s;
+  transition: margin .2s;
 }

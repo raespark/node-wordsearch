@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
-    const list = randomWords({exactly: 10, maxLength: 10, formatter: (word) => word.toUpperCase()});
+    const list = randomWords({exactly: 12, maxLength: 10, formatter: (word) => word.toUpperCase()});
     const grid = placeWords(list, 20, 20);
 
     this.state = {

@@ -1,5 +1,4 @@
 import React from 'react';
-import randomWords from 'random-words';
 
 import './list.css';
 
